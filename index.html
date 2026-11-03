@@ -4,60 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TRZP Games</title>
-	<script>
-        (function() {
-            const savedTheme = localStorage.getItem("selected-theme") || "purple";
-            document.documentElement.setAttribute("data-theme", savedTheme);
-        })();
-    </script>
     <link rel="stylesheet" href="style.css">
-    <style>
-        .theme-switcher-container {
-            margin-top: auto;
-            padding: 15px 20px 20px 20px;
-            border-top: 1px solid rgba(255, 255, 255, 0.03);
-        }
-
-        .theme-switcher-label {
-            font-size: 0.75em;
-            font-weight: bold;
-            color: var(--text-muted);
-            letter-spacing: 1px;
-            margin-bottom: 8px;
-        }
-
-        .theme-select {
-            width: 100%;
-            padding: 8px;
-            background-color: var(--steam-card-bg);
-            color: var(--text-light);
-            border: 1px solid rgba(255, 255, 255, 0.08);
-            border-radius: 4px;
-            font-family: inherit;
-            font-size: 0.85em;
-            cursor: pointer;
-            outline: none;
-            transition: border-color 0.15s;
-        }
-
-        .theme-select:focus, .theme-select:hover {
-            border-color: var(--steam-blue);
-        }
-    </style>
 </head>
 <body>
 	<div class="sidebar">
         <div class="sidebar-header">TRZP Games</div>
-      
-	<div class="theme-switcher-container">
-		<div class="theme-switcher-label">Theme</div>
-		<select id="themeSelect" class="theme-select">
-				<option value="purple">Purple</option>
-				<option value="bpink">Bright Pink</option>
-		</select>
-		</div>
-    </div>
-    
     <div class="main-view">
         <div class="grid-container" id="gridContainer"></div>
     </div>
@@ -189,7 +140,7 @@
         // =====================================================
         'fnaf1': {
             url: 'https://irv77.github.io/hd_fnaf/1/',
-            banner: 'https://cdn2.steamgriddb.com/grid/0ede7c7ae62e005507fc15cd016c3fdf.png'
+            banner: 'https://cdn2.steamgriddb.com/grid/c7e30c4f80e9452d40245385c6572936.png'
         },
         'fnaf2': {
             url: 'https://irv77.github.io/hd_fnaf/2/',
@@ -253,7 +204,7 @@
         },
         'buckshot': {
             url: "https://isabellewastaken.github.io/buckshot",
-            banner: 'https://cdn2.steamgriddb.com/grid/c9a2d093878f4d604a1b080f794da002.webp'
+            banner: 'https://cdn2.steamgriddb.com/grid/3dfd0039258e162084df3aebd767acef.png'
         },
 
         // =====================================================
@@ -285,7 +236,7 @@
         //},
         'gd': {
             url: "https://web-dashers.github.io",
-            banner: 'https://cdn2.steamgriddb.com/grid/ae581a15681d3dc1b3a96a7b904e9ef9.webp'
+            banner: 'https://cdn2.steamgriddb.com/grid/57fe16acf7d0e312b782fc01046c6ef1.png'
         },
         'jsab': {
             url: "web/jsab/",
@@ -378,38 +329,8 @@
         // 'terraria': {
         //     url: "https://isabellewastaken.github.io/terraria-web/terraria",
         //     banner: 'https://cdn2.steamgriddb.com/grid/9bc661e8362657d8cbbe4bb41d17c7f3.png'
-        // },
-        // 'tabs': {
-        //     url: "https://www.example.com",
-        //     banner: 'banners/placeholderbanner.jpg'
-        // },
-        // 'bendy1': {
-        //     url: "https://www.example.com",
-        //     banner: 'banners/placeholderbanner.jpg'
-        // },
-        // 'repo': {
-        //     url: "https://www.example.com",
-        //     banner: 'banners/placeholderbanner.jpg'
-        // },
-        // 'fallout1': {
-        //     url: "https://www.example.com",
-        //     banner: 'banners/placeholderbanner.jpg'
-        // },
-        // 'mw2': {
-        //     url: "https://www.example.com",
-        //     banner: 'banners/placeholderbanner.jpg'
-        // },
-        // 'lethalcomp': {
-        //     url: "https://www.example.com",
-        //     banner: 'banners/placeholderbanner.jpg'
-        // },
-        // 'cs1.6': {
-        //     url: "https://www.example.com",
-        //     banner: 'banners/placeholderbanner.jpg'
-        // },
 		};
 
-	
     const gridContainer = document.getElementById('gridContainer');
     const sidebarList = document.getElementById('sidebarList');
 
@@ -424,6 +345,5 @@
         gridContainer.appendChild(card);
     });
 </script>
-<script src="theme.js"></script>
 </body>
 </html>

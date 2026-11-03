@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
-/* ==========================================================================
-   THEME COLOURS
-   ========================================================================== */
-
-:root, html[data-theme="purple"] {
+:root {
     --steam-dark: #251d33;
     --steam-sidebar: #4c3b63;
     --steam-blue: #8467a9;
@@ -14,21 +10,6 @@
     --steam-card-bg: #2d243d;
     --grad-top: #3b2e50;
 }
-
-html[data-theme="bpink"] {
-    --steam-dark: #fcaec1;
-    --steam-sidebar: #ffcbd7;
-    --text-light: #2b161c;
-	--steam-blue: #70404c;
-    --text-muted: #70404c;
-    --steam-black: #f59eb3;
-    --steam-card-bg: #ffe0e7;
-    --grad-top: #ffdce4;
-}
-
-/* ==========================================================================
-   EVERYTHING ELSE
-   ========================================================================== */
 
 body {
     margin: 0;
