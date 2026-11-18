@@ -1,2 +1,2 @@
-# TRZP
-Game website. Currently, major web game updates are in the works.
+# TRZP Games
+The game website, currently being overhauled to fit in line with the mainpage.
