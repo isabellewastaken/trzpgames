@@ -1,19 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
-
+/* style.css is deprecated and CSS data is being moved towards index.html */
 :root {
-    --steam-dark: #251d33;
-    --steam-sidebar: #4c3b63;
     --steam-blue: #8467a9;
     --text-light: #e5e0eb;
-    --text-muted: #958ba3;
     --steam-black: #171221;
     --steam-card-bg: #2d243d;
-    --grad-top: #3b2e50;
 }
 
 body {
     margin: 0;
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     color: var(--text-light);
     display: flex;
     height: 100vh;
