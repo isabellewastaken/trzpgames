@@ -42,7 +42,6 @@ body {
     display: flex;
     position: relative;
     flex-direction: column;
-    background: linear-gradient(to bottom, var(--grad-top) 0%, var(--steam-dark) 100%);
 }
 
 .grid-container {
